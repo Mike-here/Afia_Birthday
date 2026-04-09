@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎉 Afia's Birthday Experience
 > A fully interactive 3D birthday celebration built with React Three Fiber
 
@@ -148,3 +149,7 @@ Output goes to `dist/` — ready to deploy on Netlify, Vercel, or any static hos
 ---
 
 *Made with ❤️ for Afia — From The Circle*
+=======
+# Afia_Birthday
+>>>>>>> 0d5844f15f7085427c94b70df804ca9bb0efc002
+# Afia_Birthday

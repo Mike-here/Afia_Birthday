@@ -5,7 +5,7 @@ export const CHARACTERS = [
   {
     id: 'michael',
     name: 'Michael',
-    skinTone: '#5C3317',
+    skinTone: '#cf7438',
     isMuscular: true,
     hasBeard: false,
     hasMoustache: true,

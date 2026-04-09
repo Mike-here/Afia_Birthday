@@ -153,7 +153,17 @@ export default function App() {
     // cheer.play()
   }, [])
 
-  // ── Character interactions ──────────────────────────────────
+  // ── Step: CELEBRATION ──────────────────────────────────────
+  useEffect(() => {
+    if (step !== 'celebration') return
+    // Stop music after confetti finishes (4 seconds)
+    setTimeout(() => {
+      if (bgMusicRef.current) {
+        bgMusicRef.current.pause()
+        bgMusicRef.current.currentTime = 0
+      }
+    }, 4000)
+  }, [step])
   const handleCharacterClick = useCallback((char) => {
     setClickedChar(char)
     setCollectedIds(prev => prev.includes(char.id) ? prev : [...prev, char.id])
